@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+qdrant-client
+openai>=1.0.0
+pypdf
+pdf2image
+pytesseract
+pillow
+beautifulsoup4
+lxml
+langdetect
+tiktoken
+internetarchive

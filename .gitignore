@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Local data & indexes (keep these out of Git)
+data/
+processed/
+processed_clean/
+chromadb/
+faiss_index/
+.qdrant/
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Logs
+logs/
+*.log
