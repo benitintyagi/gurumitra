@@ -14,7 +14,7 @@ client = OpenAI()
 store = get_store()
 
 def embed_texts(texts: List[str]) -> List[List[float]]:
-    resp = client.embeddings.create(model=EMBED_MODEL, input=texts)
+    resp = client.embeddings.create(model="text-embedding-3-small", input=texts)
     return [d.embedding for d in resp.data]
 
 def main():
