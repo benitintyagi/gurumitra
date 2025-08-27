@@ -13,3 +13,6 @@ langdetect
 tiktoken
 internetarchive
 chromadb
+requests
+certifi
+python-certifi-win32
